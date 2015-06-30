@@ -64,7 +64,7 @@
                 <a href="#services" onclick = $("#menu-close").click(); >My work</a>
             </li>
             <li>
-                <a href="#portfolio" onclick = $("#menu-close").click(); >Resume</a>
+                <a href="files/ShrutiAppiah_Resume.pdf" onclick = $("#menu-close").click(); >Resume</a>
             </li>
             <li>
                 <a href="#contact" onclick = $("#menu-close").click(); >Contact me</a>
@@ -78,7 +78,7 @@
             <h1>Shruti Appiah</h1>
             <h2>Innovate. Design. Analyze</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <a href="#about" class="btn btn-dark btn-lg" style="color: white;">Find Out More</a>
         </div>
     </header>
 
@@ -87,8 +87,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>live by the yolo</h2>
-                    <p class="lead">Connect with me on Linkedin <a target="_blank" href="https://www.linkedin.com/in/shrutiappiah">here</a>.</p>
+                    <h2>----work in progress----</h2>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <p class="lead">Connect with me</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -186,7 +197,10 @@
     <aside class="callout">
         <div class="text-vertical-center">
             <h1>About me</h1>
-            <p class="lead"> im cool and i like food</p>
+            <p class="lead">
+              I'm Shruti Appiah, an aspiring systems design engineer and data science entusisast. I put forth my best work during random energy spikes. Give me something advanced, something visual or interesting, and I will deliver something 10x cooler within a couple dozen cups of coffee.
+              I love to explore, and I crave change. I fulfil my thirst for knowledge by travelling, trying out new things and experimenting with new technologies.
+            </p>
         </div>
     </aside>
 
@@ -282,27 +296,23 @@
     <footer>
         <div class="container">
             <div class="row">
+                <div class="ideabox">
+                  <span class="text-center"><h3> Perhaps you could be my next project! </h3>
+                  <p style="font-size:19px;"> Spot a technology or device that could use some improvement? Let me know. </p> </span>
+                    <input class="inputFields" type="text" value="Word your concerns here...">
+                    <input style="float:right;" class="btn btn-lg btn-dark" type="submit" value="SUBMIT">
+                   <p style="font-size: 15px;">I will brainstorm ideas to solve your problem and log them in my idea book. Let's make the world a better place. </p>
+                </div>
+                <br><br>
                 <div class="col-lg-10 col-lg-offset-1 text-center">
-                    <h4><strong>Shruti Appiah</strong>
-                    </h4>
+                    <h4><strong style="color:#FFADEB;">Shruti Appiah</strong></h4>
                     <p>Systems Design Engineering<br>University of Waterloo, ON</p>
                     <ul class="list-unstyled">
                         <li><i class="fa fa-phone fa-fw"></i>973-723-1953</li>
-                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">sappiah@uwaterloo.ca</a>
+                        <li><i class="fa fa-envelope-o fa-fw"></i><a href="mailto:name@example.com" style="color: #FFADEB;">sappiah@uwaterloo.ca</a>
                         </li>
                     </ul>
                     <br>
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
-                        </li>
-                    </ul>
                     <hr class="small">
                     <!--p class="text-muted">Copyright &copy; Your Website 2014</p-->
                 </div>
@@ -317,36 +327,7 @@
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
+    <script src="js/custom.js"></script>
 
 </body>
 
