@@ -1342,7 +1342,7 @@ mark,
   color: #777;
 }
 .text-primary {
-  color: #337ab7;
+  color: #990099;
 }
 a.text-primary:hover {
   color: #00ba95;
@@ -1373,7 +1373,7 @@ a.text-danger:hover {
 }
 .bg-primary {
   color: #fff;
-  background-color: #2e6f81;
+  background-color: #4C004C;
 }
 a.bg-primary:hover {
   background-color: #286090;
