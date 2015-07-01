@@ -10,6 +10,8 @@ html,
 body {
     width: 100%;
     height: 100%;
+    background-color: #063152;
+    color: white;
 }
 
 body {
@@ -28,6 +30,25 @@ body {
     font-size: 4.5em;
     font-weight: 700;
 }
+
+/*Custom Link Styles */
+
+/*For IE and Firefox*/
+a:link
+{
+    color: #D633AD;
+    text-decoration: none;
+    cursor: auto;
+}
+
+/*For Google Chrome*/
+a:-webkit-any-link
+{
+    color: #D633AD;
+    text-decoration: none;
+    cursor: auto;
+}
+
 
 /* Custom Button Styles */
 
@@ -240,6 +261,21 @@ hr.small {
     .map {
         height: 75%;
     }
+}
+
+.ideabox {
+
+}
+
+.inputFields {
+  width: 100%;
+  height: 100px;
+  background-color: #002E8A;
+  color: white;
+  font-size: 15px;
+  border-style: none;
+  text-align: center;
+  margin: 1% 0% 1% 0%;
 }
 
 /* Footer */
