@@ -124,7 +124,7 @@ hr.small {
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #990099;
+    color: #fff;
     background: rgba(255,255,255,0.2);
 }
 
@@ -144,7 +144,7 @@ hr.small {
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-    color: #fff;
+    color: #990099;
     background: none;
 }
 
