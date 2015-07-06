@@ -1,0 +1,29 @@
+<p>Type 'correct' to validate.</p>
+<form action="javascript:alert( 'success!' );">
+  <div>
+    <input type="text">
+    <input type="submit">
+  </div>
+</form>
+<span id="form_output"></span>
+
+<script>
+$( "form" ).submit(function( event ) {
+  if ( $( "input:first" ).val() === "correct" ) {
+    $( "span" ).text( "Validated..." ).show();
+    return;
+  }
+
+  $( "span" ).text( "Not valid!" ).show().fadeOut( 1000 );
+  event.preventDefault();
+});
+</script>
+
+
+<p style="font-size:19px;"> Spot a technology or device that could use some improvement? Let me know. </p> </span>
+  <form action="javascript:alert( 'success!' );">
+    <div>
+      <input class="inputFields" type="text" placeholder="Word your concerns here...">
+      <input style="float:right;" class="btn btn-lg btn-dark" type="submit" value="SUBMIT">
+    </div>
+<p style="font-size: 15px;">&nbsp I will brainstorm ideas to solve your problem and log them in my idea book. Let's make the world a better place. </p>

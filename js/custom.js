@@ -1,3 +1,15 @@
+//Problem space form
+var outputID = document.getElementById("form_output");
+$( "#probspace" ).submit(function( event ) {
+  if ( $( "input:first" ).val()) {
+    $( outputID ).text( "Thanks for your input" ).show();
+    //return;
+  }
+
+  //$( outputID ).text( "Not valid!" ).show().fadeOut( 3000 );
+  event.preventDefault();
+});
+
 // Closes the sidebar menu
 $("#menu-close").click(function(e) {
     e.preventDefault();
