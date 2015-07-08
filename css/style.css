@@ -15,11 +15,21 @@ body {
 }
 
 /*Fonts*/
-@font-face{
+
+@font-face {
   font-family: Pier;
   src: url(../fonts/pier-regular.otf);
 }
 
+@font-face {
+  font-family: Bauru;
+  src: url(../fonts/Bauru.ttf);
+}
+
+@font-face {
+  font-family: Nordic;
+  src: url(../fonts/Nordic.ttf);
+}
 
 body {
     font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -118,6 +128,11 @@ hr.small {
     list-style: none;
     font-weight: 600;
     letter-spacing: 0.1rem;
+    /*background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);*/
+    background: linear-gradient(to top, #B13BA1 0%, #6B26FF 0%, #F50A60 100%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 1px transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 .sidebar-nav li {
@@ -273,14 +288,20 @@ hr.small {
     }
 }
 
-.ideabox {
+.interests {
+  margin-right: -15px;
+  margin-left: -15px;
+  margin-top: 10%;
+}
 
+.ideabox {
+  margin: 5% 0 0 0;
 }
 
 .inputFields {
   width: 100%;
   height: 100px;
-  background-color: #002E8A;
+  background: rgba(255,255,255,0.2);
   color: white;
   font-size: 17px;
   border-style: none;

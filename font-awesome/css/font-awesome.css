@@ -206,6 +206,8 @@
 .fa-close:before,
 .fa-times:before {
   content: "\f00d";
+  background: transparent;
+  -webkit-text-fill-color: gray;
 }
 .fa-search-plus:before {
   content: "\f00e";
