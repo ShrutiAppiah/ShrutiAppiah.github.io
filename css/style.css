@@ -129,17 +129,10 @@ hr.small {
     font-weight: 600;
     letter-spacing: 0.1rem;
     /*background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);*/
-<<<<<<< HEAD
     background: linear-gradient(to top, #B13BA1 0%, #6B26FF 0%, #F50A60 100%);
     -webkit-background-clip: text;
     -webkit-text-stroke: 1px transparent;
     -webkit-text-fill-color: transparent;
-=======
-    background: linear-gradient(to bottom, #B13BA1 0%, #6B26FF 0%, #F50A60 100%);
-    -webkit-background-clip: text;
-    -webkit-text-stroke: 1px transparent;
-    -webkit-text-fill-color: green;
->>>>>>> origin/master
 }
 
 .sidebar-nav li {
