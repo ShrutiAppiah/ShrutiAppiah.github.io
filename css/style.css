@@ -22,10 +22,14 @@ body {
 }
 
 @font-face {
+  font-family: Bauru;
+  src: url(../fonts/Bauru.ttf);
+}
+
+@font-face {
   font-family: Nordic;
   src: url(../fonts/Nordic.ttf);
 }
-
 
 body {
     font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
