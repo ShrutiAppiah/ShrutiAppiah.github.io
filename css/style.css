@@ -380,6 +380,10 @@ hr.small {
   width: 100%;
 }
 
+.archive-head {
+  color: green;
+}
+
 /* Footer */
 
 footer {

@@ -5,10 +5,15 @@ $( "#probspace" ).submit(function( event ) {
     $( outputID ).text( "Thanks for your input" ).show();
     //return;
   }
-
   //$( outputID ).text( "Not valid!" ).show().fadeOut( 3000 );
   event.preventDefault();
 });
+
+//Archive page tabs
+$('#myTabs a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
 
 // Closes the sidebar menu
 $("#menu-close").click(function(e) {
