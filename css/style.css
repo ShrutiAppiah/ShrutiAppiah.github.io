@@ -280,8 +280,8 @@ hr.small {
 /* Map */
 
 .map {
-    height: 700px;
-    width: 100%
+    height: 480px;
+    width: 100%;
     background: black;
     border-color: black;
 }
