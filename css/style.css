@@ -10,7 +10,7 @@ html,
 body {
     width: 100%;
     height: 100%;
-    background-color: #063152;
+    background-color: #031829;
     color: white;
 }
 
@@ -206,7 +206,7 @@ hr.medium {
     color: black;
     width: 100%;
     height: 100%;
-    background: url(../img/neboskreb5_com_cool.jpg) no-repeat center center scroll;
+    background: url(../img/headerz.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -223,6 +223,10 @@ hr.medium {
 
 .skills {
     padding: 50px 0;
+}
+
+.superpower-description {
+  font-size: 16px;
 }
 
 .service-item {

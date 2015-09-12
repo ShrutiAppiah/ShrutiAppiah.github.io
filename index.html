@@ -53,7 +53,6 @@
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
           ga('create', 'UA-65886288-1', 'auto');
-          ga('require', 'displayfeatures');
           ga('send', 'pageview');
     </script>
 
@@ -67,7 +66,7 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-dark btn-lg pull-right toggle"><span class="fa fa-times"></span></a>
             <li class="sidebar-brand">
-                <a title="Home" href="#top"  onclick = $("#menu-close").click();>Shruti Appiah</a>
+                <a title="Home" href="#top"  onclick = $("#menu-close").click(); >Shruti Appiah</a>
             </li>
             <li>
                 <a title="Home" href="#top" onclick = $("#menu-close").click(); >Home</a>
@@ -96,8 +95,8 @@
     <!-- Header -->
     <header id="top" class="header">
         <div class="text-vertical-center">
-            <p style="font-size: 100px; font-weight: 100; letter-spacing: .9rem; color:white;">Shruti Appiah</p>
-            <h3 style="font-size: 30px; font-weight: 200; letter-spacing: .4rem; color:white;">Innovate. Design. Analyze</h3>
+            <p style="font-size: 100px; font-weight: 100; letter-spacing: .4rem; color:white;">Shruti Appiah</p>
+            <h3 style="font-size: 30px; font-weight: 200; color:white;">Innovate. Design. Analyze</h3>
             <br>
             <a href="#skills" class="btn btn-dark btn-lg" style="margin-top: 2%; color: white;">Find Out More</a>
         </div>
@@ -137,7 +136,7 @@
             <h1 style="font-weight: 400;">About me</h1>
             <p class="lead">
               I'm Shruti Appiah, an aspiring systems design engineer and data science enthusisast. I put forth my best work during random energy spikes. Give me something advanced, something visual or interesting, and I will deliver something 10x cooler within a couple dozen cups of coffee.
-              I love to explore, and I thrive on change. I fulfill my thirst for knowledge by travelling, trying out new things, and experimenting with new technologies.
+              I love to explore, and I thrive on change. I fulfill my thirst for knowledge by travelling, trying out new things and experimenting with new technologies.
             </p>
         </div>
     </aside>
@@ -147,7 +146,7 @@
     <section id="skills" class="skills bg-primary">
         <div class="container">
             <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
+                <div class="col-lg-12">
                     <h2>Superpowers</h2>
                     <hr class="small">
                     <div class="row">
@@ -160,7 +159,7 @@
                                 <h4>
                                     <strong>Design</strong>
                                 </h4>
-                                <p>Simple, sustainable designs that will never fall out of trend.</p>
+                                <p class="superpower-description">Simple, sustainable designs that will never fall out of trend.</p>
                                 <!--a href="#" class="btn btn-light">Learn More</a-->
                             </div>
                         </div>
@@ -173,7 +172,7 @@
                                 <h4>
                                     <strong>OOP</strong>
                                 </h4>
-                                <p>One way of expressing the love for logical and mathematical systems.</p>
+                                <p class="superpower-description">One way of expressing the love for logical and mathematical systems.</p>
                                 <!--a href="#" class="btn btn-light">Learn More</a-->
                             </div>
                         </div>
@@ -187,7 +186,7 @@
                                 <h4>
                                     <strong>Data Science</strong>
                                 </h4>
-                                <p>Prediction and analysis through unadulterated evidence and statistics.</p>
+                                <p class="superpower-description">Prediction and analysis through unadulterated evidence and statistics.</p>
                                 <!--a href="#" class="btn btn-light">Learn More</a-->
                             </div>
                         </div>
@@ -200,7 +199,7 @@
                                 <h4>
                                     <strong>UX/UI</strong>
                                 </h4>
-                                <p>Defines the personality of a technology to build a relationship with users.</p>
+                                <p class="superpower-description">Defines the personality of a technology to build a relationship with users.</p>
                                 <!--a href="#" class="btn btn-light">Learn More</a-->
                             </div>
                         </div>
@@ -214,7 +213,7 @@
                                 <h4>
                                     <strong>SOA</strong>
                                 </h4>
-                                <p>For large-scale process optimization in enterprise software.</p>
+                                <p class="superpower-description">For large-scale process optimization in enterprise software.</p>
                                 <!--a href="#" class="btn btn-light">Learn More</a-->
                             </div>
                         </div>
@@ -266,7 +265,10 @@
                                               Project Engineer
                                             </div>
                                             <div class="project-name">
-                                                At Evertz, I automated all the processes of a non-linear workflow for an online media-streaming platform.
+                                                At Evertz, I built a system that automated all the processes of a non-linear workflow for an online
+                                                media-streaming platform using the Brightcove API. I also configured dynamic system-based reports, managed
+                                                and added new features for NBC Channel's Content Management System. I also got to demo the final product to
+                                                our clients.
                                             </div>
                                         </div>
                                     </div>
@@ -284,7 +286,10 @@
                                               UI/UX Developer
                                             </div>
                                             <div class="project-name">
-                                                At Infosys, I built a data visualization dashboard that provided insights on the jobs and tasks in an IT Service Automation Platform. The platform was made in a effort to optimize IT Support through automating repetitive tasks. I used D3.js, HTML/CSS, and Javascript to build a fully customizable, interactive, and dynamic dashboard.
+                                                At Infosys, I built a data visualization dashboard that provided insights on the jobs and tasks in an
+                                                IT Service Automation Platform. The platform was made in an effort to optimize IT Support through automating
+                                                repetitive tasks. I used D3.js, HTML/CSS, and Javascript to build a fully customizable, interactive, and
+                                                dynamic dashboard.
                                             </div>
                                         </div>
                                     </div>
@@ -314,7 +319,7 @@
                         </div>
                     </div>
                     <!-- /.row (nested) -->
-                    <br><a href="#" class="btn btn-dark">View More Items</a>
+                    <br><!--a href="#" class="btn btn-dark">View More Items</a-->
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
@@ -334,15 +339,15 @@
                     <div>
                       <iframe class="map" src="https://www.google.com/maps/d/embed?mid=zoQN_wE7C0iI.kowrVEJoRuS0"></iframe>
                     </div>
-                    <a href="http://shrutiappiah.github.io/archive.html" class="btn btn-lg btn-dark">View Photography</a>
-                    <hr class="medium" style="margin-top: 7%">
+                    <!--a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a-->
                 </div>
             </div>
          </div>
       </aside>
       <div class="container">
             <div class="interests" >
-               <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center">
                           <div class="col-md-3 col-sm-6">
                               <div class="service-item">
                                   <span class="fa-stack fa-4x">
