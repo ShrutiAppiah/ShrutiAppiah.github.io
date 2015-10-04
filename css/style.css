@@ -515,15 +515,7 @@ hr.medium {
     width: 100%;
     background: black;
     border-color: black;
-    pointer-events: none;
-}
-
-.overlay {
-   background:transparent;
-   position:relative;
-   height:480px; /* your iframe height */
-   top:480px;  /* your iframe height */
-   margin-top:-480px;  /* your iframe height */
+    /* pointer-events: none; */
 }
 
 @media(max-width:768px) {
