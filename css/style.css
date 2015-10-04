@@ -322,8 +322,8 @@ hr.medium {
     z-index: 100;
     position: absolute;
     left: 0;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     margin-left: 0;
     border: 7px solid #4d4d4d;
     border-radius: 100%;
