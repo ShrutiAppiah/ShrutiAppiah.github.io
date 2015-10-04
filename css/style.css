@@ -358,6 +358,10 @@ hr.medium {
     border-left-width: 0;
 }
 
+.timeline>li:first-child {
+    margin-top: 40px;
+}
+
 .timeline>li:last-child {
     margin-bottom: 40px;
 }
