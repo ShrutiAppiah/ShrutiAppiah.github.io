@@ -323,7 +323,7 @@ header {
 #colorlib-hire,
 #colorlib-contact,
 #colorlib-about {
-  padding: 7em 0;
+  padding: 3em 0 1em 0;
   clear: both; }
 
 @media screen and (max-width: 768px) {
@@ -336,16 +336,15 @@ header {
 .intro-heading {
   margin-bottom: 3em; }
   .intro-heading h2 {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 400;
     line-height: 1.5;
     margin-bottom: 1.5em;
     color: #000;
-    position: relative;
-    text-transform: uppercase; }
+    position: relative;}
     .intro-heading h2:after {
       position: absolute;
-      bottom: -.5em;
+      bottom: -.2em;
       left: 0;
       right: 0;
       width: 0px;
